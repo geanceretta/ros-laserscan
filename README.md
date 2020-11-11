@@ -10,7 +10,7 @@ Inside your ~/catkin_ws directory run:
 
 ```
 roslaunch turtlebot3_gazebo turtlebot3_empty_world.launch
-```bash
+```
 
 Inside gazebo, put some obstacles for the robot to avoid
 
@@ -19,7 +19,7 @@ From your ~/catkin_ws directory run:
 
 ```
 python src/rm_exemplos/src/scripts/position_control_TB3.py
-```bash
+```
 
 When prompted, set the position where the robot should arrive. Think of a path where the object avoidance is needed.
 
